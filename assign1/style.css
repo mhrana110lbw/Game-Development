@@ -1,0 +1,34 @@
+body{
+    width : 70%;
+    margin: 0 15%;
+    background-color: azure;
+    font-family: sans-serif;
+    font-style: italic;
+    
+}
+
+.container{
+    background-color: antiquewhite;
+}
+.top{
+    background-image: url("img.png");
+    height: 50%;
+    margin: 10px;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+
+.top .inner{
+    width: 60%;
+    background-color: aliceblue;
+    margin: 0 20%;
+    opacity: .8;
+}
+
+.content{
+    margin: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+}
